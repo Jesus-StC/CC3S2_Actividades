@@ -31,4 +31,11 @@
 **2. Filtrar commits por autor:**
 - Usa el siguiente comando para mostrar solo los commits realizados por un autor específico:
 ![Imagen 9](/Image/EJ2-2.jpg)
-- 
+**3. Revertir un commit:**
+- Imagina que el commit más reciente en main.py no debería haberse hecho. Usa git revert para revertir ese commit:
+![Imagen 10](/Image/EJ2-3.jpg)
+**4. Rebase interactivo:**
+- Realiza un rebase interactivo para combinar varios commits en uno solo. Esto es útil para limpiar el historial de commits antes de una fusión.
+- Usa el siguiente comando para empezar el rebase interactivo:
+  $ git rebase -i HEAD~3
+![Imagen 10](/Image/EJ2-4-1.jpg)
